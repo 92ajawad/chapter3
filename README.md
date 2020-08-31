@@ -1,71 +1,57 @@
-index.html
+body {
 
-<html>
+    background-color: #FCEBB6;
 
-<head>
+    color: #221811;
 
-    <title> Javajam Coffe House Menu </title>
+    font-family: Verdana;
 
-    <link rel="stylesheet" href="Javajam.css" type="text/css">
+    margin: 100px 100px;
 
-</head>
+}
 
-<body>
+#wrapper h1 {
 
-    <div id="wrapper">
+    background-color: #D2B48C;
 
-        <h1><center><b>JavaJam Coffee House</b></center></h1>
+    text-align: center;
 
-        <ul>
+    line-height: 200%;
 
-            <center>
+}
 
-                <a href="home.html"><li> Home</li></a>
+#wrapper a li {
 
-                <a href="menu.html"><li> Menu</li></a>
+    text-decoration: none;
 
-                <a href=""><li>Music</li></a>
+    display: inline;
 
-                <a href=""><li>Jobs </li></a>
+    padding: 10px 6px;
 
-            </center>
+    text-align: center;
 
-        </ul>
+}
 
-        <div>
+footer {
 
-            <h2><b>Relax at JavaJam</b></h2>
+    background-color: #D2B48C;
 
-            <ul>
+    font-family: Verdana;
 
-                <li>Speciality Coffee and Tea</li>
+    font-weight: bold;
 
-                <li>Bagels, Muffins & Organic Snacks</li>
+    font-size: .60em;
 
-                <li>Music and Poetry Readings</li>
+    text-align: center;
 
-                <li>Open Mic Night Every Friday</li>
+    font-style: italic;
 
-            </ul>
+}
 
-            <p> 54321 Route 42<br>
+    footer h4 {
 
-                Ellison Bay,WI 54210<br>
+        margin: 0px;
 
-                888-555-5555</p>
+        font-weight: bold;
 
-            <footer>
-
-                <center>
-
-                    <h4>Copyright &copy;2016 JavaJam Coffe House</h4>
-
-                    <a href="mailto:javajamcoffeehouse@aol.com">javajamcoffeehouse@aol.com</a>
-
-                </center>
-
-            </footer>
-
-</body>
-
-</html>
+    }
