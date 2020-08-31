@@ -1,39 +1,71 @@
-# chapter3
-<!DOCTYPE html>
-<html lang="en">
+index.html
+
+<html>
+
 <head>
-<title>Pacific Trails Resort</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="pacific.css">
+
+    <title> Javajam Coffe House Menu </title>
+
+    <link rel="stylesheet" href="Javajam.css" type="text/css">
+
 </head>
+
 <body>
-<div id="wrapper">
-<header>
-   <h1>Pacific Trails Resort</h1>
-</header>
-<nav>
-   <a href="index.html">Home</a> &nbsp; <a href="yurts.html">Yurts</a> &nbsp; <a href="activities.html">Activities</a> &nbsp; <a href="reservations.html">Reservations</a>
-</nav>
-<main>
-   <h2>Enjoy Nature in Luxury</h2>
-      <p><span class="resort">Pacific Trails Resort</span> offers a special lodging experience on the California North Coast with panoramic views of the Pacific Ocean. Your stay at Pacific Trails Resort includes a sumptuously appointed private yurt and a cooked-to-order breakfast each morning.</p>
-      <ul>
-         <li>Unwind in the heated outdoor pool and whirlpool</li>
-         <li>Explore the coast on your own or join our guided tours</li>
-         <li>Relax in our lodge while enjoying complimentary appetizers and beverages</li>
-         <li>Savor nightly fine dining with an ocean view</li>
-      </ul>
-<div>
-   <span class="resort">Pacific Trails Resort</span><br>
-   12010 Pacific Trails Road<br>
-   Zephyr, CA 95555<br><br>
-   888-555-5555<br><br>
-</div>
-</main>
-<footer>
-   Copyright &copy; 2019 Pacific Trails Resort<br>
-   <a href="mailto:ariel@merriman.com">ariel@merriman.com</a>
-</footer>
-</div>
+
+    <div id="wrapper">
+
+        <h1><center><b>JavaJam Coffee House</b></center></h1>
+
+        <ul>
+
+            <center>
+
+                <a href="home.html"><li> Home</li></a>
+
+                <a href="menu.html"><li> Menu</li></a>
+
+                <a href=""><li>Music</li></a>
+
+                <a href=""><li>Jobs </li></a>
+
+            </center>
+
+        </ul>
+
+        <div>
+
+            <h2><b>Relax at JavaJam</b></h2>
+
+            <ul>
+
+                <li>Speciality Coffee and Tea</li>
+
+                <li>Bagels, Muffins & Organic Snacks</li>
+
+                <li>Music and Poetry Readings</li>
+
+                <li>Open Mic Night Every Friday</li>
+
+            </ul>
+
+            <p> 54321 Route 42<br>
+
+                Ellison Bay,WI 54210<br>
+
+                888-555-5555</p>
+
+            <footer>
+
+                <center>
+
+                    <h4>Copyright &copy;2016 JavaJam Coffe House</h4>
+
+                    <a href="mailto:javajamcoffeehouse@aol.com">javajamcoffeehouse@aol.com</a>
+
+                </center>
+
+            </footer>
+
 </body>
+
 </html>
