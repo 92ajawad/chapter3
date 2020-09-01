@@ -30,8 +30,8 @@
 </div>
 </main>
 <footer>
-   Copyright &copy; 2019 Pacific Trails Resort<br>
-   <a href="mailto:ariel@merriman.com">ariel@merriman.com</a>
+   Copyright &copy; 2020 Pacific Trails Resort<br>
+a>
 </footer>
 </div>
 </body>
