@@ -1,80 +1,42 @@
-#<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JavaJam Home</title>
-    <link rel="stylesheet" type="text/css" href="css\javacoffee.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-     
-</head>
-
-<body id="wrapper">
-    <section class="row">
-        <div id="navContainer" class="col-xs-12 col-md-3 col-lg-2">
-            <img src="images/javajamlogo.jpg" width="100%" alt="">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="music.php">Music</a></li>
-                    <li><a href="jobs.html">Jobs</a></li>
-                    <li><a href="gear.php">Gear</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="col-xs-12 col-md-9 col-lg-10">
-            <section>
-                <header>
-                    <h1>JavaJam Coffee House</h1>
-                </header>
-            </section>
-            <section>
-                <img src="images/heromugs.jpg" width="100%" alt="">
-            </section>
-            <main>
-                <article>
-                    <section>
-                        <h2 id="menuH2">Music at JavaJam</h2>
-                    </section>
-                    <section class="musicData">
-                        <p> The first Friday night each month at JavaJam is a special night. Join us from 8 pm to 11 pm for some music you won't
-                            want to miss!</p>
-                    </section>
-                    <section>
-                        <p class="division">JANUARY</p>
-                            <table class="musicTableClass"> 
-                                <tbody>
-                                    <tr>
-                                        <td><img src="images/melaniethumb.jpg"></td>
-                                        <td>Melanie Morris entertains with her melodic folk style.</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </section>
-                    <section>
-                        <p class="division">FEBRUARY</p>
-                        <table class="musicTableClass">
-                            <tbody>
-                                <tr>
-                                    <td><img src="images/gregthumb.jpg"></td>
-                                    <td>Tahoe Greg is back from his tour. New songs. New stories.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                </section>
-            </article>
-        </main>
-    </section>
-    <section class="row">
-        <footer class="col-sm-12">
-            <div>Copyright &copy 2020 JavaJam Coffee House</div>
-            <a href="/a>
-        </footer>
-    </section>
-</body>
+<!DOCTYPE html>
+<html>
+	<!--Joshua Hipple
+		CIS 216 - W1
+		
+		Chapter 4 Assignment
+		JavaJam
+		
+		menu.html
+	-->
+	<head>
+		<title>JavaJam Coffee House Menu</title>
+		<link rel="stylesheet" href="javajam.css">
+	</head>
+	<body>
+		<div id="wrapper">
+		<header>
+			<h1><img src="javalogo.gif" height="117" width="619" alt="JavaJam Coffee House"></h1>
+		</header>
+		<nav>
+			<a href="index.html">Home</a>&nbsp <a href="menu.html">Menu</a>&nbsp <a href="music.html">Music</a>&nbsp <a href="jobs.html">Jobs</a>
+		</nav>
+		<main>
+			<dl>
+				<dt><strong>Just Java</strong></dt>
+					<dd>Regular house blend, decaffinated coffee, or flavor of the day.<br>
+					Endless Cup $2.00</dd>
+				<dt><strong>Cafe Au Lait</strong><dt>
+					<dd>House blended coffee infused into a smooth, steamed milk.<br>
+					Single $2.00 Double $3.00</dd>
+				<dt><strong>Iced Cappucino</strong></dt>
+					<dd>Sweetened espresso blended with icy-cold milk and served in chilled glass.<br>
+					Single $4.75 Double $5.75</strong></dt>
+			</dl>
+		</main>
+		<footer>
+			Copyright &copy 2014 JavaJam Coffee House<br>
+			<a href="mailto:joshua@hipple.com">joshua@hipple.com</a>			
+		</footer>
+		</div>
+	</body>
 </html>
