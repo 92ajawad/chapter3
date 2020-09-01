@@ -1,87 +1,85 @@
-<!DOCTYPE html>
+/* style rule for body */
 
-<html lang="en">
+body {
 
-<head>
+background-color: #FFFFFF;
 
-    <title>JavaJam Coffee House</title>
+color: #666666;
 
-    <meta charset="utf-8">
+font-family: verdana, arial, sans-serif;
 
-    <link rel="stylesheet" href="javajam.css">
+background-image: url('background.jpg');
 
-</head>
+}
 
-<body>
+/* style rule for header */
 
-<div id="wrapper">
+header{
 
-<header>
+background-color: #000033;
 
-    <h1>JavaJam Coffee House</h1>
+color:#FFFFFF;
 
-</header>
+font-family: Georgia, 'Times New Roman', Times, serif;
 
-<nav>
+}
 
-    <ul>
+/* style rule for h1 */
 
-    
+h1{
 
-    <li><a href="home.html">Home</a></li>
+line-height: 200%;
 
-    <li><a href="menu.html">Menu</a></li>
+}
 
-    <li><a href="music.html">Music</a></li>
+/* style rule for nav element */
 
-    <li><a href="jobs.html">Jobs</a></li>
+nav{
 
-    </ul>
+font-weight: bold;
 
-</nav>
+background-color: #90C7E3;
 
-<main>
+}
 
-    <div id="road"></div>
+/* style rule for h2 */
 
-    <h2>Follow the Winding Road to JavaJam</h2>
+h2{
 
-    <p>We&#39;re a little out of the way, but take a drive down Route 42 to JavaJam today! Indulge in our locally roasted free-trade coffee and home-made pastries. You&#39;ll feel right at home at JavaJam!</p>
+color:#3399cc;
 
-    <h3>JavaJam Coffee House features:</h3>
+font-family: Georgia, 'Times New Roman', Times, serif;
 
-    <ul>
+}
 
-        <li>Specialty Coffee and Tea</li>
+/* style rule for dt */
 
-        <li>Bagels, Muffins, and Organic Snacks</li>
+dt{
 
-        <li>Music and Poetry Readings</li>
+color:#000033;
 
-        <li>Open Mic Night</li>
+font-weight: bold;
 
-    </ul>
+}
 
-    <div>
+/* style rule for class=resort */
 
-    54321 Route 42<br>
+.resort{
 
-    Ellison Bay, WI 54210<br>
+color: #000033;
 
-    888-555-5555
+font-size: 1.2em;
 
-    </div>
+}
 
-</main>
+/* style rule for footer element */
 
-    <footer>Copyright &copy; 2016 JavaJam Coffee House<br>
+footer{
 
-    <i><a href="#">ajinkya@ghadge.com</a></i>
+font-size: 0.70em;
 
-    </footer>
+font-style: italic;
 
-</div>
+text-align: center;
 
-</body>
-
-</html>
+}
