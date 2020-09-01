@@ -27,8 +27,8 @@
 </div>
 </main>
 <footer>
-   <small><i>Copyright &copy; 2019 JavaJam Coffee House<br>
-   <a href="mailto:ariel@merriman.com">ariel@merriman.com</a></i></small>
+   <small><i>Copyright &copy; 2020 JavaJam Coffee House<br>
+  
 </footer>
 </body>
 </html>
