@@ -1,86 +1,38 @@
-/* style rule for body */
-
-body {
-
-background-color: #FFFFFF;
-
-color: #666666;
-
-font-family: verdana, arial, sans-serif;
-
-background-image: url('background.jpg');
-
-}
-
-/* style rule for header */
-
-header{
-
-background-color: #000033;
-
-color:#FFFFFF;
-
-font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-/* style rule for h1 */
-
-h1{
-
-line-height: 200%;
-
-}
-
-/* style rule for nav element */
-
-nav{
-
-font-weight: bold;
-
-background-color: #90C7E3;
-
-}
-
-/* style rule for h2 */
-
-h2{
-
-color:#3399cc;
-
-font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-/* style rule for dt */
-
-dt{
-
-color:#000033;
-
-font-weight: bold;
-
-}
-
-/* style rule for class=resort */
-
-.resort{
-
-color: #000033;
-
-font-size: 1.2em;
-
-}
-
-/* style rule for footer element */
-
-footer{
-
-font-size: 0.70em;
-
-font-style: italic;
-
-text-align: center;
-
-}
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pacific Trails Resort</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+   <h1>Pacific Trails Resort</h1>
+</header>
+<nav>
+   <a href="index.html">Home</a> &nbsp; <a href="yurts.html">Yurts</a> &nbsp; <a href="activities.html">Activities</a> &nbsp; <a href="reservations.html">Reservations</a>
+</nav>
+<main>
+   <h2>Enjoy Nature in Luxury</h2>
+      <p><span class="resort">Pacific Trails Resort</span> offers a special lodging experience on the California North Coast with panoramic views of the Pacific Ocean. Your stay at Pacific Trails Resort includes a sumptuously appointed private yurt and a cooked-to-order breakfast each morning.</p>
+      <ul>
+         <li>Unwind in the heated outdoor pool and whirlpool</li>
+         <li>Explore the coast on your own or join our guided tours</li>
+         <li>Relax in our lodge while enjoying complimentary appetizers and beverages</li>
+         <li>Savor nightly fine dining with an ocean view</li>
+      </ul>
+<div>
+   <span class="resort">Pacific Trails Resort</span><br>
+   12010 Pacific Trails Road<br>
+   Zephyr, CA 95555<br><br>
+   888-555-5555<br><br>
+</div>
+</main>
+<footer>
+   Copyright &copy; 2019 Pacific Trails Resort<br>
+   <a href="mailto:ariel@merriman.com">ariel@merriman.com</a>
+</footer>
+</div>
+</body>
+</html>
