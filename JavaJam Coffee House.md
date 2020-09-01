@@ -1,21 +1,87 @@
-body { background-color: #FFFFFF;
-       color: #666666;
-       font-family: Verdana, Arial, sans-serif; }
-header { background-color: #000033;
-         color: #FFFFFF;
-         font-family: Georgia, serif; }
-h1 { line-height: 200%; }
-nav { font-weight: bold;
-      background-color: #90C7E3; }
-h2 { color: #3399CC;
-     font-family: Georgia, serif; }
-dt { color: #000033;
-     font-weight: bold; }
-.resort { color: #000033;
-          font-size: 1.2em; }
-footer { font-size: .70em;
-         font-style: italic;
-         text-align: center; }
-#wrapper { width: 80%;
-           margin-right: auto;
-           margin-left: auto; }
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>JavaJam Coffee House</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="javajam.css">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+
+    <h1>JavaJam Coffee House</h1>
+
+</header>
+
+<nav>
+
+    <ul>
+
+    
+
+    <li><a href="home.html">Home</a></li>
+
+    <li><a href="menu.html">Menu</a></li>
+
+    <li><a href="music.html">Music</a></li>
+
+    <li><a href="jobs.html">Jobs</a></li>
+
+    </ul>
+
+</nav>
+
+<main>
+
+    <div id="road"></div>
+
+    <h2>Follow the Winding Road to JavaJam</h2>
+
+    <p>We&#39;re a little out of the way, but take a drive down Route 42 to JavaJam today! Indulge in our locally roasted free-trade coffee and home-made pastries. You&#39;ll feel right at home at JavaJam!</p>
+
+    <h3>JavaJam Coffee House features:</h3>
+
+    <ul>
+
+        <li>Specialty Coffee and Tea</li>
+
+        <li>Bagels, Muffins, and Organic Snacks</li>
+
+        <li>Music and Poetry Readings</li>
+
+        <li>Open Mic Night</li>
+
+    </ul>
+
+    <div>
+
+    54321 Route 42<br>
+
+    Ellison Bay, WI 54210<br>
+
+    888-555-5555
+
+    </div>
+
+</main>
+
+    <footer>Copyright &copy; 2016 JavaJam Coffee House<br>
+
+    <i><a href="#">ajinkya@ghadge.com</a></i>
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>
