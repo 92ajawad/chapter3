@@ -1,225 +1,35 @@
-index.html
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <title> Javajam Coffe House Menu </title>
-
-    <link rel="stylesheet" href="Javajam.css" type="text/css">
-
+<title>Pacific Trails Resort</title>
+<meta charset="utf-8">
 </head>
-
 <body>
-
-    <div id="wrapper">
-
-        <h1><center><b>JavaJam Coffee House</b></center></h1>
-
-        <ul>
-
-            <center>
-
-                <a href="home.html"><li> Home</li></a>
-
-                <a href="menu.html"><li> Menu</li></a>
-
-                <a href=""><li>Music</li></a>
-
-                <a href=""><li>Jobs </li></a>
-
-            </center>
-
-        </ul>
-
-        <div>
-
-            <h2><b>Relax at JavaJam</b></h2>
-
-            <ul>
-
-                <li>Speciality Coffee and Tea</li>
-
-                <li>Bagels, Muffins & Organic Snacks</li>
-
-                <li>Music and Poetry Readings</li>
-
-                <li>Open Mic Night Every Friday</li>
-
-            </ul>
-
-            <p> 54321 Route 42<br>
-
-                Ellison Bay,WI 54210<br>
-
-                888-555-5555</p>
-
-            <footer>
-
-                <center>
-
-                    <h4>Copyright &copy;2016 JavaJam Coffe House</h4>
-
-                    <a href="mailto:javajamcoffeehouse@aol.com">javajamcoffeehouse@aol.com</a>
-
-                </center>
-
-            </footer>
-
+<header>
+   <h1>Pacific Trails Resort</h1>
+</header>
+<nav>
+   <b><a href="index.html">Home</a> &nbsp; <a href="yurts.html">Yurts</a> &nbsp; <a href="activities.html">Activities</a> &nbsp; <a href="reservations.html">Reservations</a></b>
+</nav>
+<main>
+   <h2>Enjoy Nature in Luxury</h2>
+      <p>Pacific Trails Resort offers a special lodging experience on the California North Coast with panoramic views of the Pacific Ocean. Your stay at Pacific Trails Resort includes a sumptuously appointed private yurt and a cooked-to-order breakfast each morning.</p>
+      <ul>
+         <li>Unwind in the heated outdoor pool and whirlpool</li>
+         <li>Explore the coast on your own or join our guided tours</li>
+         <li>Relax in our lodge while enjoying complimentary appetizers and beverages</li>
+         <li>Savor nightly fine dining with an ocean view</li>
+      </ul>
+<div>
+   Pacific Trails Resort<br>
+   12010 Pacific Trails Road<br>
+   Zephyr, CA 95555<br><br>
+   888-555-5555<br><br>
+</div>
+</main>
+<footer>
+   <small><i>Copyright &copy; 2019 Pacific Trails Resort<br>
+   <a href="mailto:ariel@merriman.com">ariel@merriman.com</a></i></small>
+</footer>
 </body>
-
 </html>
-
-menu.html
-
-<html>
-
-<head>
-
-    <title> JavaJam Coffe House Menu </title>
-
-    <link rel="stylesheet" href="javajam.css" type="text/css">
-
-</head>
-
-<body>
-
-    <div id="wrapper">
-
-        <h1>JavaJam Coffee House</h1>
-
-        <ul>
-
-            <center>
-
-                <a href="home.html"><li>Home</li></a>
-
-                <a href="menu.html"><li>Menu</li></a>
-
-                <a href=""><li>Music</li></a>
-
-                <a href=""><li>Jobs </li></a>
-
-            </center>
-
-        </ul>
-
-        <div>
-
-            <h2> Coffee at JavaJam </h2>
-
-            <h4>Just Java</h4>
-
-            <blockquote>
-
-                Regular house blend, decaffeinated coffee,or flavor of<br>
-
-                the day.<br>
-
-                Endless Cup $2.00
-
-            </blockquote>
-
-            <h4>Cafe au Lait</h4>
-
-            <blockquote>
-
-                Regular house blend, decaffeinated coffee,or flavor of<br>
-
-                the day.<br>
-
-                Single $2.00 Double $3.00
-
-            </blockquote>
-
-            <h4>Iced Cappuccino</h4>
-
-            <blockquote>
-
-                Regular house blend, decaffeinated coffee,or flavor of<br>
-
-                the day.<br>
-
-                Single $4.75 Double $5.75
-
-            </blockquote>
-
-        </div>
-
-    </div>
-
-    <footer>
-
-        <center>
-
-            <h4>Copyright &copy;2016 JavaJam Coffe House</h4>
-
-            <a href="mailto:javajamcoffeehouse@aol.com">javajamcoffeehouse@aol.com</a>
-
-        </center>
-
-    </footer>
-
-</body>
-
-</html>
-
-javajam.css
-
-body {
-
-    background-color: #FCEBB6;
-
-    color: #221811;
-
-    font-family: Verdana;
-
-    margin: 100px 100px;
-
-}
-
-#wrapper h1 {
-
-    background-color: #D2B48C;
-
-    text-align: center;
-
-    line-height: 200%;
-
-}
-
-#wrapper a li {
-
-    text-decoration: none;
-
-    display: inline;
-
-    padding: 10px 6px;
-
-    text-align: center;
-
-}
-
-footer {
-
-    background-color: #D2B48C;
-
-    font-family: Verdana;
-
-    font-weight: bold;
-
-    font-size: .60em;
-
-    text-align: center;
-
-    font-style: italic;
-
-}
-
-    footer h4 {
-
-        margin: 0px;
-
-        font-weight: bold;
-
-    }
