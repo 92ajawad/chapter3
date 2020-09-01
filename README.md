@@ -1,50 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-<style>
-body {
-background-color:#FFFFFF;
-color:#666666;
-}
-header
-{
-background-color:#000033;
-color:#FFFFFF;
+body { background-color: #ffffcc;
+	  color: #330000; 
+	  font-family: Tahoma, Verdana, sans-serif; }
 
-}
-nav
-{
-background-color:#90C7E3;
-}
-h2
-{
-color:#3399CC;
-font-size:medium;
-}
+h1 { background-color: #ccaa66;
+	color: #000000; 
+	text-align: center; 
+	line-height: 200%; }
+	
+footer { background-color: #ccaa66;
+	   color: #000000;
+	   font-size: small;
+	   font-style: italic; 
+	   text-align: center; }
 
-dt
-{
-color:#000033;
-}
-.resort {
-color:#5C7FA3;
-}
+nav { text-align: center; }
 
-</style>
-</head>
-<body>
-<header>
-<h2>This is a Heading</h2>
-<p>This is a paragraph.</p></header>
-<nav>
-<h2>This is a Heading</h2>
-<p>This is a paragraph.</p>
-</nav>
-<dt>
-
-<h2>This is a Heading</h2>
-<p>This is a paragraph.</p>
-</dt>
-</body>
-</html>
+#wrapper { margin-left: auto;
+		  margin-right: auto;
+		  width: 80% }
